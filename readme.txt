@@ -17,7 +17,7 @@ Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
 
-    Within your wordpress admin panel, please Click on Appearance &ndash;&gt; Widgets then on the right hand side select where you would like to place TrafficFeed link in, then drag 'TEXT' widget where you would like to use TrafficFeed.
+    Within your wordpress admin panel, please Click on Appearance -> Widgets then on the right hand side select where you would like to place TrafficFeed link in, then drag 'TEXT' widget where you would like to use TrafficFeed.
     Use shortcode for display link exchanges.
     [TF-SHOW show="receive_div"]. For displaying page link exchanges
     [TF-SHOW show="receive_dir"]. For displaying Link directory
