@@ -26,7 +26,7 @@ How to use this plugin?
 
     Within your wordpress admin panel, please Click on Appearance => Widgets then  
 on the right hand side select where you would like to place TrafficFeed link in,  
-then drag 'TEXT' widget where you would like to use TrafficFeed.
+then drag "TEXT" widget where you would like to use TrafficFeed.
     Use shortcode for display link exchanges.
     [TF-SHOW show="receive_div"]. For displaying page link exchanges
     [TF-SHOW show="receive_dir"]. For displaying Link directory
@@ -63,8 +63,8 @@ select to appear from your trafficfeed account will appear on that particular pa
 3. You will get plugin helps from  TF -> Settings 
 
 == Frequently asked questions ==
-Q.Can I have links appear in a side bar or a footer or a header on a particular page  
-?
+Q.Can I have links appear in a side bar or a footer or a header on a particular page?
+
 A. You can use short code in text widget and just drag and drop that widget where  
 you would like links to appear. If you want to place links on  a page or in a post,  
 just place the short code where you would like links to appear. So if you want to  
@@ -73,10 +73,12 @@ just one link or multiple links (up to you) . Similarly you can place links on p
 that you choose to.(Different pages – could have different links on them)
 
 Q. Where do I control all of the links from ?
+
 A. You control your site(s) and page(s) from one centralized location at  
 http://www.trafficfeed.com  where you can open free account.
 
 Q.Is your system free to use ?
+
 A. Everyone can sign up and use trafficfeed.com system for free, however we provide  
 a range of services to accommodate everyone and some of those services are paid  
 services.
