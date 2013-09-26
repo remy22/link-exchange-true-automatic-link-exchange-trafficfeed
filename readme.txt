@@ -30,7 +30,7 @@ then drag "TEXT" widget where you would like to use TrafficFeed.
     Use shortcode for display link exchanges.
     [TF-SHOW show="receive_div"]. For displaying page link exchanges
     [TF-SHOW show="receive_dir"]. For displaying Link directory
-    Click “Save” after you have included the code, etcAs simple as that. If you have  
+    Click "Save" after you have included the code, etcAs simple as that. If you have  
 any questions or having difficulties, please open support ticket, we are here to  
 help.
 
