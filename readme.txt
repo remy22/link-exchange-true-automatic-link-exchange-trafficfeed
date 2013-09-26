@@ -19,7 +19,7 @@ In this version we have added ability to register and add your site right from y
 Use this plugin to control all aspects of your link exchange, automatic  backlink generation, regular link exchange,  ABC exchange or link ads (sales and  
 purchases) and much more. We are the only ones that give you a range of tools that allow you to do  
 a true automatic link exchange or automatic backlinks. Just set criteria and system will do everything for  
-you, you can monitor everything and do adjustments to perfect it for what you are doing.  (or do it all manually  your choice)
+you, you can monitor everything and do adjustments to perfect it for what you are doing.  (or do it all manually your choice)
 Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
