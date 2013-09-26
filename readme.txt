@@ -19,14 +19,14 @@ In this version we have added ability to register and add your site right from y
 Use this plugin to control all aspects of your link exchange, automatic  backlink generation, regular link exchange,  ABC exchange or link ads (sales and  
 purchases) and much more. We are the only ones that give you a range of tools that allow you to do  
 a true automatic link exchange or automatic backlinks. Just set criteria and system will do everything for  
-you, you can monitor everything and do adjustments to perfect it for what you are doing.  (or do it all manually – your choice)
+you, you can monitor everything and do adjustments to perfect it for what you are doing.  (or do it all manually  your choice)
 Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
 
-    Within your wordpress admin panel, please….Click on Appearance –> Widgets then  
+    Within your wordpress admin panel, please Click on Appearance => Widgets then  
 on the right hand side select where you would like to place TrafficFeed link in,  
-then drag “TEXT” widget where you would like to use TrafficFeed.
+then drag 'TEXT' widget where you would like to use TrafficFeed.
     Use shortcode for display link exchanges.
     [TF-SHOW show="receive_div"]. For displaying page link exchanges
     [TF-SHOW show="receive_dir"]. For displaying Link directory
