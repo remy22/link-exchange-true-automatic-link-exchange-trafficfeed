@@ -1,0 +1,162 @@
+@charset "utf-8";
+.frmRegister{
+	padding:10px;
+	border:1px solid #999;
+	background:#DDE9F9;
+	border-radius:15px;
+}
+.frmRegister label{
+	padding:5px;
+}
+.frmRegister li{
+	 float:left;
+	 margin-right:10px;
+}
+.frmLogin{
+	padding:10px;
+	border:1px solid #999;
+	width:160px;
+	
+	
+	background:#DDE9F9;
+	border-radius:15px;
+}
+.domain_info{
+	
+	
+	border:1px solid #999;
+	
+	padding:10px;
+	float:left;
+	background:#DDE9F9;
+	border-radius:15px;
+}
+.info_padding{
+	
+}
+.tf_error_msg{
+	color:#F00;
+	font-size:14px;
+	text-align:center;
+}
+#domain_act_response{
+	color:#0E4F72;
+	padding:10px 2px;
+	overflow:hidden;
+	text-align:left;
+	font-size:13px;
+}
+.tf_clear{
+	clear:both;
+}
+.tf_label_small{
+	float:left;
+	width:100px;
+}
+.tf_label_medium{
+	float:left;
+	width:120px;
+}
+.tf_error{
+	display:none;
+	color:#F00;
+	font-size:14px;
+	text-align:center;
+}
+.tf_success{
+	display:none;
+	color:#090;
+	font-size:14px;
+	text-align:center;
+}
+.tf_note{
+	color:#F00;
+	font-size:14px;
+	font-weight:bold;
+}
+.tf_site{
+	float:left;
+	margin-right:10px;
+	padding:10px;
+	border:1px solid #CCC;
+	background:#DDE9F9;
+	border-radius:15px;
+}
+.tf_site h2{
+	color:#006595;
+}
+
+.tf_user{
+	float:left;
+	margin-right:10px;
+	padding:10px;
+	border:1px solid #CCC;
+	background:#DDE9F9;
+	border-radius:15px;
+}
+.tf_user h2{
+	color:#006595;
+}
+.tf_user_label{
+	float:left;
+	margin-right:5px;
+	width:85px;
+	font-weight:400;
+	color:#0A3070;
+}
+.tf_float_left{
+	float:left;
+}
+.tf_clear{
+	clear:both;
+}
+.tf_text{
+	width:250px;
+}
+.tf_heading{
+	border-bottom:1px solid #204880;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	font-size:16px;
+	color:#043A77 !important;
+}
+.tf_logout{
+	padding:5px;
+	display:block;
+	width:180px;
+	color:#FFF;
+	background:#043A77;
+	margin:5px 0px;
+	text-decoration:none;
+	
+	
+}
+.tf_logout:hover{
+
+	color:#FFF;
+	background:#FF3333;
+	text-decoration:none;
+	
+}
+
+.tf_reset{
+	padding:5px;
+	display:block;
+	width:110px;
+	color:#FFF;
+	background:#006633;
+	margin:5px 0px;
+	text-decoration:none;
+	
+	
+}
+.tf_reset:hover{
+
+	color:#FFF;
+	background:#FF3333;
+	text-decoration:none;
+	
+}
+
+/* CSS Document */
+
