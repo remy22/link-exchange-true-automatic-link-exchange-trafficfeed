@@ -3,7 +3,7 @@
 Plugin Name: Wp-Trafficfeed
 Description: Wordpress plugin for link exchange, automatic link exchange/automatic backlinks.
 Author: Iqbal Chintaman and www.TrafficFeed.com
-Version: 1.0 
+Version: 2.0 
 */ 
 
 class tf{
