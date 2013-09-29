@@ -9,7 +9,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Link Exchange, Automatic Link Exchange, Link Ads, Traffic Generaion, Control all of  
+Link Exchange, Automatic Link Exchange, Link Ads, Traffic Generation, Control all of  
 your Sites from one Trafficfeed.com account (free account).
 
 == Description ==
