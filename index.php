@@ -13,7 +13,7 @@ class tf{
 	private $server_url = 'http://trafficfeed.com/api.php';
 
 	public function __construct() {
-		$this->plugin_url = plugins_url();
+		$this->plugin_url = plugin_dir_url(__FILE__);
 		//$this->service_url = 'http://192.168.1.16/tf/services.php';
 		$this->service_url = 'http://www.trafficfeed.com/services.php';
 		$this->plugin_folder = dirname (__FILE__); 
