@@ -89,7 +89,8 @@ services.
 2. Admin Screen: screenshot2
 3. Installed Plugin: screenshot3
 
-[youtube http://www.youtube.com/watch?v=7EiKx_WSesk]
+== Embed ==
+[youtube http://www.youtube.com/watch?v=u8FSTOn-P2o]
 
 == Changelog ==
 
