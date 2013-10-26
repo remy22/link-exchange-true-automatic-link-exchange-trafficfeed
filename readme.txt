@@ -90,7 +90,7 @@ services.
 3. Installed Plugin: screenshot3
 
 == Embed ==
-
+How to use plugin ?
 [youtube http://www.youtube.com/watch?v=u8FSTOn-P2o]
 
 == Changelog ==
