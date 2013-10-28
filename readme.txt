@@ -55,7 +55,7 @@ select to appear from your trafficfeed account will appear on that particular pa
 = Features =
 * Trafficfeed.com's all exchanges can show in widget or page with shortcode
 
-== How to install ==
+= Video Tutorial =
 
 http://www.youtube.com/watch?v=u8FSTOn-P2o
 
