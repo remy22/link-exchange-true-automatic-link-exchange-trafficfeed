@@ -90,6 +90,7 @@ services.
 3. Installed Plugin: screenshot3
 
 == How to install ==
+
 http://www.youtube.com/watch?v=u8FSTOn-P2o
 
 == Changelog ==
