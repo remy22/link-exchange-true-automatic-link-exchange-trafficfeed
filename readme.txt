@@ -4,7 +4,7 @@ Donate link: http://www.trafficfeed.com/
 Tags: link exchange, automatic backlinks, SEO,website traffic, automatic link exchange, search engine  
 optimization, webmaster tools, link ads, traffic generation, link partners
 Requires at least: 3.0
-Tested up to: 3.4.2
+Tested up to: 3.9
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

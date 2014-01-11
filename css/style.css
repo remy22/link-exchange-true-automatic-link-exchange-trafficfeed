@@ -15,7 +15,7 @@
 .frmLogin{
 	padding:10px;
 	border:1px solid #999;
-	width:160px;
+	
 	
 	
 	background:#DDE9F9;
@@ -27,9 +27,10 @@
 	border:1px solid #999;
 	
 	padding:10px;
-	float:left;
+	margin: 5px 0px;
 	background:#DDE9F9;
 	border-radius:15px;
+	width: 97%;
 }
 .info_padding{
 	
@@ -75,7 +76,7 @@
 	font-weight:bold;
 }
 .tf_site{
-	float:left;
+	
 	margin-right:10px;
 	padding:10px;
 	border:1px solid #CCC;
@@ -87,7 +88,7 @@
 }
 
 .tf_user{
-	float:left;
+	
 	margin-right:10px;
 	padding:10px;
 	border:1px solid #CCC;

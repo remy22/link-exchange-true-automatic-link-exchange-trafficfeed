@@ -3,7 +3,7 @@
 Plugin Name: Wp-Trafficfeed
 Description: Wordpress plugin for link exchange, automatic link exchange/automatic backlinks.
 Author: Iqbal Chintaman and www.TrafficFeed.com
-Version: 2.1 
+Version: 2.2 
 */ 
 
 class tf{
@@ -33,6 +33,7 @@ class tf{
 		add_filter('widget_text', 'do_shortcode');
 		add_shortcode("TF-SHOW", array($this, 'tf_shortcode')); 
 		add_action( 'admin_menu', array( &$this, 'tf_menu' ) );
+		
 	}
 	
 	function tf_manage_domain(){
@@ -325,6 +326,7 @@ class tf{
 		}else {
 			$REQ_URI =  $this->_env('REQUEST_URI');
 		}
+
 		$div_url = $this->_env('HTTP_HOST') . $REQ_URI ;
 		if(isset($_REQUEST['category'])){
 			$query =  '&category='.$_REQUEST['category'];
@@ -334,7 +336,8 @@ class tf{
 		$div_url = (substr($div_url, -1) == '/' ? substr($div_url, 0, -1) : $div_url);
 		$div_url = (substr($div_url, 0, 7) == 'http://' ? substr($div_url, 7) : $div_url);
 		$div_url = (substr($div_url, 0, 4) == 'www.' ? substr($div_url, 4) : $div_url);
-		$this->div_html = file_get_contents($this->server_url . '?mod='.$show.$query.'&act=licence&obj='.$div_url);
+		$this->div_html = $this->send_request($this->server_url . '?mod='.$show.$query.'&act=licence&obj='.$div_url);
+		//$this->div_html = file_get_contents($this->server_url . '?mod='.$show.$query.'&act=licence&obj='.$div_url);
 		if(isset($encoding)) {
 			$this->encoding = strtoupper($encoding);
 		}
@@ -379,5 +382,88 @@ class tf{
 		return null;
 	}
 
+}
+class tf_widget_plugin extends WP_Widget {
+
+	// constructor
+	function tf_widget_plugin(){
+		$widget_ops = array( 'classname' => 'tf_widget_plugin', 'description' => 'Trafficfeed Widget' );
+		$control_ops = array( 'id_base' => 'widget_trafficfeed' );
+		$this->WP_Widget( 'widget_trafficfeed', 'Trafficfeed Widget', $widget_ops, $control_ops );
+	}
+	
+
+	// widget form creation
+	function form($instance) {	
+		$defaults = array(
+			'include_pages_label' => '',
+			'title' => ''
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
+		<p>
+          <label for="<?php echo $this->get_field_id( 'title' ); ?>">
+          <?php _e( 'Title:', LANGUAGE ); ?>
+          </label>
+          <input id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" style="width:100%;" />
+        </p>
+        <p>
+          <label for="<?php echo $this->get_field_id( 'tf_link_type' ); ?>">
+          <?php _e( 'Display Type:' ) ?>
+          </label>
+          <select id="<?php echo $this->get_field_id( 'tf_link_type' ); ?>" name="<?php echo $this->get_field_name( 'tf_link_type' ); ?>">
+          		<option value="1" <?php if($instance['tf_link_type']==1) { ?> selected="selected" <?php } ?>>Pages Link Exchange</option>
+          		<option value="2" <?php if($instance['tf_link_type']==2) { ?> selected="selected" <?php } ?>>Directory Link Exchange</option>
+          </select>
+         
+        </p>
+		<?php 
+	}
+
+	// widget update
+	function update($new_instance, $old_instance) {
+		$instance = $old_instance;
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['tf_link_type'] = strip_tags( $new_instance['tf_link_type'] );
+		return $instance;
+	}
+
+	// widget display
+	function widget($args, $instance) {
+		global $tf;
+		
+		extract( $args );
+		$html = "";
+		$html .= $before_widget;
+		$title = apply_filters( 'widget_title', $instance['title'] );
+		$link_type = $instance['tf_link_type'];
+		switch ($link_type){
+			case 1;
+				$type = "receive_div";
+			break;
+			case 2:
+				$type = "receive_dir";
+			
+			break;
+			default:
+				$type = "receive_div";
+			break;
+
+		}
+		if ( $title == ''){
+			$html .= $before_title."Trafficfeed Link Exchanges".$after_title;
+		}else{
+			$html .= $before_title.$title.$after_title;
+		}
+		
+		$html .= $tf->get_html($type);
+		$html .= $after_widget;
+		echo $html;
+
+	}
+}
+add_action( 'widgets_init', 'load_tf_widgets' );	
+// Registering Custom Widget
+function load_tf_widgets() {
+	register_widget('tf_widget_plugin');
 }
 $tf = new tf();
