@@ -24,7 +24,9 @@ Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
 
-1.Within your wordpress admin panel, please Click on Appearance => Widgets then you will fine Trafficfeed Widget just drag and drop in your sidebar panel thats it!! 
+1.Within your wordpress admin panel, please Click on Appearance => Widgets then you will fine Trafficfeed Widget just drag and drop in your sidebar panel thats it!!
+ 
+
 2.Within your wordpress admin panel, please Click on Appearance => Widgets then  on the right hand side select where you would like to place TrafficFeed link in,  
 then drag "TEXT" widget where you would like to use TrafficFeed.
 
