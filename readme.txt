@@ -13,14 +13,14 @@ Link Exchange, Automatic Link Exchange, Link Ads, Traffic Generation, Control al
 your Sites from one Trafficfeed.com account (free account).
 
 == Description ==
+
 TRUE Automatic Link Exchange / TRUE AUTOMATIC BACKLINK BUILDING
 In this version we have added ability to register and add your site right from your WP admin panel (after plugin is installed) . Making the whole process much faster and integration much more seamless.
 
 Use this plugin to control all aspects of your link exchange, automatic  backlink generation, regular link exchange,  ABC exchange or link ads (sales and  
-purchases) and much more. We are the only ones that give you a range of tools that allow you to do  
-a true automatic link exchange or automatic backlinks. Just set criteria and system will do everything for  
-you, you can monitor everything and do adjustments to perfect it for what you are doing.  (or do it all manually your choice)
-Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
+purchases) and much more. We are the only ones that give you a range of tools that allow you to do a true automatic link exchange or automatic backlinks. Just set criteria and system will do everything for you, you can monitor everything and do adjustments to perfect it for what you are doing.  (or do it all manually your choice)
+
+*  Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
 
@@ -33,8 +33,7 @@ Use shortcode for display link exchanges.
 [TF-SHOW show="receive_dir"]. For displaying Link directory Click "Save" after you have included the code, etcAs simple as that.
 
 
-*  If you have any questions or having difficulties, please open support ticket, we are here to  
-help.
+*  If you have any questions or having difficulties, please open support ticket, we are here to help.
 
 Link Window:::::
 
@@ -55,6 +54,7 @@ select to appear from your trafficfeed account will appear on that particular pa
 - See more at: http://www.trafficfeed.com/cms/trafficfeed-wordpress-plugin/
 
 = Features =
+
 * Trafficfeed.com's all exchanges can show in widget or page with shortcode
 
 = Video Tutorial =
@@ -62,6 +62,7 @@ select to appear from your trafficfeed account will appear on that particular pa
 http://www.youtube.com/watch?v=u8FSTOn-P2o
 
 == Installation ==
+
 1. Upload "Wp-Trafficfeed" folder to the "/wp-content/plugins/" directory
 2. Activate the plugin "Wp-Trafficfeed" through the 'Plugins' menu in WordPress
 3. You will get plugin helps from  TF -> Settings 
