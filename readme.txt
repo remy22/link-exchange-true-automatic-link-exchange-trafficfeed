@@ -4,7 +4,7 @@ Donate link: http://www.trafficfeed.com/
 Tags: link exchange, automatic backlinks, SEO,website traffic, automatic link exchange, search engine  
 optimization, webmaster tools, link ads, traffic generation, link partners
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 3.8
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,8 +24,8 @@ Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
 
-Within your wordpress admin panel, please Click on Appearance => Widgets then  
-on the right hand side select where you would like to place TrafficFeed link in,  
+1.Within your wordpress admin panel, please Click on Appearance => Widgets then you will fine Trafficfeed Widget just drag and drop in your sidebar panel thats it!! 
+2.Within your wordpress admin panel, please Click on Appearance => Widgets then  on the right hand side select where you would like to place TrafficFeed link in,  
 then drag "TEXT" widget where you would like to use TrafficFeed.
 
 Use shortcode for display link exchanges.
