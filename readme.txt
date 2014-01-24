@@ -14,6 +14,8 @@ your Sites from one Trafficfeed.com account (free account).
 
 == Description ==
 
+* This is a very powerful addition to any site. Start using it today and start seeing results.
+
 TRUE Automatic Link Exchange / TRUE AUTOMATIC BACKLINK BUILDING
 In this version we have added ability to register and add your site right from your WP admin panel (after plugin is installed) . Making the whole process much faster and integration much more seamless.
 
@@ -23,6 +25,13 @@ purchases) and much more. We are the only ones that give you a range of tools th
 *  Read and see video here: http://www.trafficfeed.com/cms/seo-tools-overview/
 
 How to use this plugin?
+
+We have modified the plugin to make it easier to set up and start using.
+Plugin will have Trafficfeed widget now which will allow you to drag and drop it. (You can still set up 
+Trafficfeed widget and place it where ever you would like in a post, page, side bar, header, footer etc.)
+You can specify what you would like system to display link window (a div where links will appear) or a 
+link directory (which will allow you to gather partners outside of Trafficfeed network; it comes with a built in form).
+
 
 1.  Within your wordpress admin panel, please Click on Appearance => Widgets then you will fine Trafficfeed Widget just drag and drop in your sidebar panel thats it!!
 
